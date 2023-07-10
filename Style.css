@@ -80,7 +80,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ababab;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 549;
 }
 .row{
@@ -109,8 +109,8 @@ nav ul li a:hover::after{
 }
 .tab-links{
     margin-right: 50px;
-    font-size: 19px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
     cursor: pointer;
     position: relative;
 }
@@ -136,7 +136,7 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: #b54769;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 550;
 }
 .tab-contents{
