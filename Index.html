@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <div class="logo1"><span>P</span>ravin.</div>
+            <!-- <img src="Images/Picture5.png" class="logo"> -->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>               
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Java Developer</p>
+            <h1>Hi, I'm <span>Pravin</span> <br> Dhembare From India</h1>
+
+        </div>
+    </div>
+    </div>
+    <!-- -------------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Picture7.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am Java Full Stack Developer with a 
+                        passion for creating innovative and user-friendly applications, 
+                        and I am proficient in a variety of Java frameworks 
+                        and technologies. I intend to build a career with an
+                        organization, where in, I can implement
+                        my Theoretical, Logical, Technical skills
+                        in the real-life environment with
+                        committed & dedicated people, which
+                        will help me to explore myself fully and
+                        realize my potential, Willing to work as a
+                        key player in challenging & creative
+                        environment. Goal is to achieve a good position 
+                        by doing satisfying work in the IT 
+                        field, strongly focused to complete 
+                        the tasks in fast-faced environment.
+                    </p>
+                    <div class="tab-titles">
+                        <!-- <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> -->
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('training')">Proffesional Training</p>
+                        <p class="tab-links" onclick="opentab('extraAct')">Extra-Curricular Act</p>
+                        <p class="tab-links" onclick="opentab('personal')">Personal Info</p>                                                                                                    
+                    </div>
+                    <!-- <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>J2EE</span><br>Design Pattern,JDBC,Hibernate,Spring Framework(Core,MVC,REST,Boot),Maven</li>
+                            <li><span>WEBTECH</span><br>HTML5,CSS,JavaScript,Web Devlopment and Technology</li>
+                            <li><span>CORE JAVA</span><br>OOPS,Up-Casting Down-Castiing,Constructors,Interface,Collection Framework(Lisr,Queue,Set),Exception Handling</li>
+                            <li><span> SQL</span><br>SQL queries,DDL,DML,TCL,DCL,DQL,Grouping Functions, Sub queries,Joins</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>BCA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2022</span><br>Mudhoji College, Phaltan<br>Percentage 81.19%</li>
+                            <br><li><span>HSC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2019</span><br>Yashwantrao Chavan jr. College, Phaltan<br>Percentage 54.77%</li>
+                            <br><li><span>SSC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2017</span><br>New English School Nimbhore<br>Percentage 79.40%</li>                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="training">
+                        <ul>
+                            <li><span>Java Development</span><br>internship at Oasis Infobyte. 2023</li>
+                            <br><li><span>Software Development</span><br>training at Qspiders, Wakad, Pune. 2023</li>
+                            <br><li><span>Block Coding</span><br>at Curious Coder. 2022</li>
+                            <br><li><span>Computer Basic</span><br>at Curious Coder. 2022</li>
+                            <br><li><span>MSCIT</span><br>at Dr.B R Ambedkar Institution, Phaltan 2021</li>                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="extraAct">
+                        <ul>
+                            <li><span>TECHFEST &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2K22</span><br>Third prize of Project presentation in one day state level technical event.</li>
+                            <br><li><span> TECHNO-SPIRIT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20K22</span><br>Participate in Programming Skills of one day state level technical event.</li>
+                            <br><li><span>Java script &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2K22</span><br>Participate in Coding Competition on Curious Coder. Computing Intelligence.</li>
+                            <br><li><span>ICT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2K17</span><br>School Co-Ordinate of Computer Knowledge event.</li>
+                            <br><li><span>Olympiad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2K16</span><br>Participate in Central Board Of IT & Vocational Training.</li>                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="personal">
+                        <ul>
+                            <li><span>Full Name&nbsp;&nbsp;&nbsp;</span> Pravin Vasant Dhembare</li>
+                            <br><li><span> Father’s Name&nbsp;&nbsp;</span> Vasant Aana Dhembar</li>
+                            <br><li><span>Gender&nbsp;&nbsp;&nbsp;</span> Male</li>
+                            <br><li><span> Date of Birth&nbsp;&nbsp;</span> 26 May 2001</li>
+                            <br><li><span> Languages known&nbsp;&nbsp;</span> English, Hindi, Marathi</li>  
+                            <br><li><span> Marital Status&nbsp;&nbsp;</span> Unmarried</li>
+                            <br><li><span> Nationality&nbsp;&nbsp;</span> Indian</li>
+                            <br><li><span> Address&nbsp;&nbsp;</span>Pune (Maharashtra) 411033.</li>                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------------services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>                   
+                    <h2> J2EE</h2>
+                    <p><ul>
+                        <li>Good knowledge in writing <b> Design Patterns</b></li>
+                        <li> Good knowledge in <b> JDBC</b>.</li>
+                        <li> Having Good knowledge in <b> Hibernate</b>.</li>
+                        <li>Good knowledge in <b> Maven.</b></li>
+                        <li>Good knowledge in <b> Spring Framework (Core, MVC, REST & Boot).</b></li>                        
+                    </ul></p>                   
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i> 
+                    <i class="fa-brands fa-square-js"></i>
+                    <i class="fa-brands fa-react"></i>                  
+                    <h2>WEBTECH</h2>
+                    <p><ul>
+                        <li> Very Good knowledge on <b> Web Development </b> and <b> Technology</b>.</li>
+                        <li> Having Good knowledge on <b> HTML 5.</b></li>                        
+                        <li> Very Good knowledge on <b> CSS.</b></li>
+                        <li> Good knowledge on <b> JavaScript</b>.</li>
+                        <li> Good knowledge on <b> ReactJs</b>.</li>
+                    </ul></p>                   
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>                    
+                    <h2>CORE JAVA</h2>
+                    <p><ul>
+                        <li> Very strong knowledge on <b> OOPS</b></li>
+                        <li> Good knowledge on <b> Inheritance, Polymorphism</b>.</li>
+                        <li> Having good knowledge on <b> Abstraction and Encapsulation</b>.</li>
+                        <li> Strong knowledge on <b> Up Casting</b> and <b> Down Casting</b>.</li>
+                        <li> Very good knowledge on <b> Constructors </b> and <b> Interface</b>.</li>
+                        <li> Good knowledge on <b> Collection Framework</b> like <b> List, Queue</b> and <b> Set</b>.</li>
+                        <li> Good in <b> Exception Handling </b>and written many custom Exceptions</li>
+                    </ul></p>                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>SQL</h2>
+                    <p><ul>
+                        <li>Good knowledge in writing <b> SQL queries</b>.</li>
+                        <li>Good knowledge in <b> DDL, DML, TCL, DCL, DQL</b>.</li>
+                        <li>Good knowledge in <b> Grouping and Functions</b>.</li>
+                        <li>Having very good knowledge in <b> Sub-queries and Co-related Sub-queries.</b></li>
+                        <li>Good knowledge in <b> Joins </b> and its <b> Types</b>.</li>
+                    </ul></p>                    
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------------------Portfolio----------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">                              
+                <div class="work">
+                    <img src="Images/ARB2.png">
+                    <div class="layer">
+                        <h3><b> Auto Resume Builder</b></h3>
+                        <p>Auto Resume Builder is the Web Application which helps students to get their resume in hand just by filling up a simple form where important credentials need to be filled.
+                            <br>Java(Swing,JDBC), MySQL.
+                        </p>
+                        <a href="https://github.com/pravindhembare/Auto_Resume_Builder"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/HMS5.png">
+                    <div class="layer">
+                        <h3><b> Hospital Management System</b></h3>
+                        <p>The project Hospital Management system includes registration of patients, storing their details into the system, and also computerized billing. That’s they maintain all Patient and Doctors records
+                            <br>C# .Net SQL Server2008.
+                        </p>
+                        <a href="https://github.com/pravindhembare/Hospital_Management_System"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/ATS.png">
+                    <div class="layer">
+                        <h3><b> Attendance Tracker System</b></h3>
+                        <p>“Attendance Tracker” is software developed for maintaining the attendance of the student on the daily basis in the collage. <br> Python(Tkinter), MySQL. </p>
+                        <a href="https://github.com/pravindhembare/Attendance_Tracker_System"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-list">                              
+                <div class="work">
+                    <img src="Images/pp18.PNG">
+                    <div class="layer">
+                        <h3><b> Clone Spotify Web</b></h3>
+                        <p>In this project i cloned the full musical Spotify System. <br>HTMl5 CSS3 JS </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/P3.PNG">
+                    <div class="layer">
+                        <h3><b> Google Home Page</b></h3>
+                        <p>Here I designed the Google Home Page. <br>HTMl5 CSS3 JS</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/P5.PNG">
+                    <div class="layer">
+                        <h3><b> No Broker Home Page</b></h3>
+                        <p>Here I designed the No Broker Home page. <br>HTMl5 CSS3 JS </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -------------contact--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>dhembarepravin777@gmail.com<p>
+                    <p><i class="fa-solid fa-square-phone"></i>7709625968</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/pravin.dhembare.942"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/dhembare_pravin?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href=" https://www.linkedin.com/in/pravin777"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/pravindhembare"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Images/PravinDhem_Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-heart"></i> Pravin.</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right="0";
+        }
+        function closemenu() {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwzqK9Lu5aKX0QLugblMiO66aCoNGfc8YMHLf3xQntk7T5bAlru4aWEvPpY08C6oct4Jg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
