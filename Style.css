@@ -50,7 +50,7 @@ nav ul li a{
     position: relative;
 }
 nav ul li a:hover{
-    color: #61b752;   
+    color: #f1071b;   
 }
 nav ul li a::after{
     content: '';
@@ -115,7 +115,7 @@ nav ul li a:hover::after{
     position: relative;
 }
 .tab-links:hover{
-    color:red;
+    color:#f1071b;
 }
 .tab-links::after{
     content: '';
@@ -157,7 +157,7 @@ nav ul li a:hover::after{
 }
 .services-list div{
     background: #262626;
-    padding: 20px;
+    padding: 25px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
