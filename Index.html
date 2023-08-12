@@ -253,13 +253,17 @@
                         <a href=" https://www.linkedin.com/in/pravin777"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://github.com/pravindhembare"><i class="fa-brands fa-github"></i></a>
                     </div>
-                    <a id="new" href="Images/PravinDhem_Resume.pdf" >
+                    <button id="new" class="new" onclick="showButtons()" >
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
                         Download Resume
-                    </a>
+                    </button>
+                    <div id="selectButtons" style="display: none;">
+                        <button class="new"><a style="text-decoration: none; color: #03e9f4;" href="./Images/Resume.D.P.pdf">Single Page</a></button>
+                        <button class="new"><a style="text-decoration: none; color: #03e9f4;" href="./Images/Resume.P.D.pdf">Descriptive</a></button>
+                      </div>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -341,5 +345,12 @@ function changeHeading() {
 // Call the changeHeading() function every 2 seconds (2000 milliseconds)
 setInterval(changeHeading, 3000);
 </script>     
+
+<script>
+    function showButtons() {
+      document.getElementById('selectButtons').style.display = 'block';
+      document.getElementById('new').style.display = 'none';
+    }
+    </script>
 </body>
 </html>
